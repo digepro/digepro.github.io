@@ -1,0 +1,13 @@
+.categorieAccueil
+{
+    padding-bottom: 8em;
+}
+
+@media(max-width: 767px)
+{
+    .categorieAccueil
+    {
+        padding-bottom: 0;
+    }
+    
+}

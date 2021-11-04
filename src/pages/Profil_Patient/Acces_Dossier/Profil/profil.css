@@ -1,0 +1,163 @@
+.containejr{
+    display: flex;
+    margin-top: 10px;
+}
+.affichage{
+    flex:4;
+}
+.pageProfil
+{
+    width: 100%;
+    flex:4;
+}
+
+.section1
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 3em;
+}
+
+.section2
+{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 3em;
+}
+
+
+.subSection1
+{
+    width: 50%;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 2em;
+    border: 1px solid;
+    border-color: lightgray;
+}
+
+.subSection2
+{
+    width: 100%;
+}
+
+.element
+{
+    margin:2px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.icone
+{
+    width: 3em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.diagramme
+{
+    width: 50%;
+    height: 25em;
+    background-color: #6483F2;
+}
+
+.boutonProfil
+{
+    background-color: #4C5A81;
+    color: white;
+    border: none;
+    width: 20%;
+    border-radius: 0.3em;
+    margin: 2em;
+}
+
+.boutonProfil:hover
+{
+    cursor: pointer;
+    background-color: #687bb1;
+}
+
+@media(max-aspect-ratio: 4/3)
+{
+    .pageProfil
+    {
+        position: relative;
+        width: 100%;
+    }
+
+    .section1
+    {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .section2
+    {
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 1em;
+    }
+
+    .subSection1
+    {
+        width: 50%;
+    }
+
+    .titreSection
+    {
+        text-align: center;
+    }
+
+    .diagramme
+    {
+        width: 70%;
+        height: 25em;
+        background-color: #6483F2;
+    }
+}
+
+@media(max-aspect-ratio: 5/6)
+{
+    .pageProfil
+    {
+        position: relative;
+        width: 100%;
+    }
+
+    .section1
+    {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .section2
+    {
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 1em;
+    }
+
+    .subSection1
+    {
+        width: 100%;
+    }
+
+    .titreSection
+    {
+        text-align: center;
+    }
+
+    .diagramme
+    {
+        width: 98%;
+        height: 25em;
+        background-color: #6483F2;
+    }
+}

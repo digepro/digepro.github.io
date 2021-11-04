@@ -1,0 +1,13 @@
+.categorieWelcome
+{
+    padding-bottom: 8em;
+}
+
+@media(max-width: 767px)
+{
+    .categorieWelcome
+    {
+        padding-bottom: 2em;
+    }
+    
+}

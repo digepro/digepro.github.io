@@ -1,0 +1,7 @@
+.containejr{
+    display: flex;
+    margin-top: 10px;
+}
+.affichage{
+    flex:4;
+}

@@ -1,0 +1,117 @@
+.listeItems
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70%;
+    margin-left: 15%;
+}
+
+@media(max-width: 767px)
+{
+    .listeItems
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+.item 
+{
+    background-color: transparent;
+    width: 30em;
+    height: 5em;
+    margin: 2em;
+    padding-top:0.1em;
+    color: white;
+    text-shadow: -1px -1px 0 grey, 1px -1px 0 grey, -1px 1px 0 grey, 1px 1px 0 grey;
+    border: 2px solid;
+    border-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0.5em;
+    box-shadow: 0px 0px 1px grey;
+}
+
+.item:hover
+{
+    box-shadow: 0px 0px 5px grey;
+}
+
+.listeBoutons
+{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.boutonItem
+{
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    width: 1.6em;
+    height: 1.6em;
+    border-radius: 0.3em;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.boutonItem:hover
+{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: black;
+}
+
+.pageOrdonnance
+{
+    padding-top: 5em;
+    min-height: 100vh;
+    /*background: linear-gradient(150deg, var(--Rose), var(--Bleu));*/
+    background: rgb(226,145,144);
+    background: linear-gradient(150deg, rgba(226,145,144,1) 15%, rgb(187, 166, 233) 50%, rgba(126,195,226,1) 100%);
+    background: linear-gradient(217deg, rgba(226,145,144,1), rgba(226,145,144,0.2) 70.71%),
+                linear-gradient(127deg, rgba(187, 166, 233,1), rgba(187, 166, 233,0.2) 70.71%),
+                linear-gradient(336deg, rgba(126,195,226,1), rgba(126,195,226,0.2) 70.71%);;
+}
+
+.boutonAfficher
+{
+    border: 1px solid;
+    border-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    margin-left: 0.1em;
+    margin-right: 0.1em;
+    width: 8em;
+}
+
+.boutonAfficher:hover
+{
+    color: white;
+}
+
+.boutonAfficher:focus
+{
+    outline: none;
+}
+
+.boutonCommander
+{
+    width: 150; 
+    border: 1px solid;
+    border-color: rgba(255, 255, 255, 0.5);
+    color: white;
+    background-color: rgba(68, 102, 117, 0.3);
+    border-radius: 10px;
+    font-size: 1.5em;
+}
+
+.boutonCommander:hover
+{
+    border-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(68, 102, 117, 0.1);
+    box-shadow: 0px 0px 5px #b8b8b8;
+}
+
+.boutonCommander:focus
+{
+    outline: none;
+}
